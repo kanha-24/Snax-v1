@@ -64,7 +64,7 @@ class HelpSlash (Cog ,name ="helpslash"):
             title ="Help Menu",
             color =0x000000 
             )
-            embed .set_image (url ="https://cdn.discordapp.com/banners/1372468860435042344/2200c89d12a45d8cf648694ad30535f8.png?size=512")
+            embed .set_image (url ="https://i.imgur.com/itjqxhg.png")
 
             embed .add_field (
             name ="<:home:1372530452681719950> __**General Features**__",
