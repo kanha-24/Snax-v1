@@ -6,11 +6,11 @@ import time
 import aiosqlite 
 import platform 
 import datetime 
+from importlib.metadata import distributions
 from discord import Embed ,ButtonStyle 
 from discord .ui import Button ,View 
 from discord .ext import commands 
-from utils .Tools import *
-import aiosqlite 
+from utils .Tools import * 
 import wavelink 
 
 class Stats (commands .Cog ):
