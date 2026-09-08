@@ -91,3 +91,4 @@ colorama
 discord.py
 jishaku
 python-dotenv
+setuptools
