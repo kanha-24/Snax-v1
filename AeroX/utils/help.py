@@ -264,6 +264,6 @@ class View (discord .ui .View ):
 """
 : ! Aegis !
     + Discord: root.exe
-    + Community: https://discord.gg/meet (AeroX Development )
+    + Community: https://discord.gg/meet (Snax development )
     + for any queries reach out Community or DM me.
 """
