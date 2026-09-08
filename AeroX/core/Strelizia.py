@@ -44,18 +44,18 @@ class Strelizia (commands .AutoShardedBot ):
 
 
         self .status_messages =[
-        {"type":discord .ActivityType .watching ,"name":"over Strelizia HQ"},
+        {"type":discord .ActivityType .watching ,"name":"over Snax HQ"},
         {"type":discord .ActivityType .listening ,"name":"to your commands"},
         {"type":discord .ActivityType .playing ,"name":"with Discord API"},
-        {"type":discord .ActivityType .streaming ,"name":"&help | AeroX Development","url":"https://twitch.tv/strelizia"},
-        {"type":discord .ActivityType .watching ,"name":"the Strelizia community"},
-        {"type":discord .ActivityType .playing ,"name":"in Strelizia's digital garden"},
-        {"type":discord .ActivityType .listening ,"name":"to Strelizia's heartbeat"},
-        {"type":discord .ActivityType .watching ,"name":"for new Strelizia members"},
+        {"type":discord .ActivityType .streaming ,"name":"&help | Snax Development","url":"https://twitch.tv/snax"},
+        {"type":discord .ActivityType .watching ,"name":"the Snax community"},
+        {"type":discord .ActivityType .playing ,"name":"in Echidna's digital garden"},
+        {"type":discord .ActivityType .listening ,"name":"to Echidna's heartbeat"},
+        {"type":discord .ActivityType .watching ,"name":"for new Snax members"},
         {"type":discord .ActivityType .playing ,"name":"the role of your assistant"},
-        {"type":discord .ActivityType .listening ,"name":"to feedback from Strelizia HQ"},
-        {"type":discord .ActivityType .watching ,"name":"Strelizia bloom in cyberspace"},
-        {"type":discord .ActivityType .playing ,"name":"guardian of Strelizia servers"}
+        {"type":discord .ActivityType .listening ,"name":"to feedback from Snax HQ"},
+        {"type":discord .ActivityType .watching ,"name":"Snax bloom in cyberspace"},
+        {"type":discord .ActivityType .playing ,"name":"guardian of Snax servers"}
         ]
         self .current_status_index =0 
 
