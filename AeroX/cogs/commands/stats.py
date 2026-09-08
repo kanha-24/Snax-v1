@@ -5,7 +5,6 @@ import os
 import time 
 import aiosqlite 
 import platform 
-import pkg_resources 
 import datetime 
 from discord import Embed ,ButtonStyle 
 from discord .ui import Button ,View 
