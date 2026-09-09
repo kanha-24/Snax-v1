@@ -458,6 +458,17 @@ async def run_bot ():
             print_info ("Closing bot connection...")
             await client .close ()
 
+# Render health server
+web_app = Flask(__name__)
+
+@web_app.route("/")
+def home():
+    return "Snax is online!", 200
+
+def run_web_server():
+    port = int(os.environ.get("PORT", 10000))
+    web_app.run(host="0.0.0.0", port=port)
+
 async def main ():
     """Main function with signal handling and graceful shutdown"""
     global shutdown_flag 
@@ -496,9 +507,14 @@ async def main ():
             pass 
         print_success ("Bot shutdown completed")
 
-if __name__ =='__main__':
-    try :
-        asyncio .run (main ())
+if __name__ == '__main__':
+    Thread(target=run_web_server, daemon=True).start()
+
+    try:
+        asyncio.run(main())
+    except Exception as e:
+        print_error(f"Critical error: {e}")
+        sys.exit(1)
     except Exception as e :
         print_error (f"Critical error: {e}")
         sys .exit (1 )
