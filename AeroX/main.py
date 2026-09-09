@@ -468,7 +468,8 @@ def home():
 
 def run_web_server():
     port = int(os.environ.get("PORT", 10000))
-    web_app.run(host="0.0.0.0", port=port)
+    import os
+web_app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
 
 async def main ():
     """Main function with signal handling and graceful shutdown"""
